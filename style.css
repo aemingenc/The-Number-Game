@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+  
+    box-sizing: border-box;
+}
+body{background-image: url(./800px_COLOURBOX30493728.jpg);
+height: 90vh;
+background-size: cover;
+}
+.container{
+    height: 90vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    text-shadow: red 2px 5px 6px;
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-top: 10vh;
+    width: 50%;
+    height: 20vh;;
+}
+#search_bar {
+    padding-left: 25vw;
+    height: 5vh;
+    margin-top: 10vh;
+    width: 50%;
+    border:2px solid red;
+}
+button{ 
+    box-shadow: indigo 4px 8px 6px;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Irish Grover', cursive;
+    font-size: 1.2rem;
+    background-color: rgb(123, 33, 187);
+    height: 5vh;;
+    width: 10%;
+    text-align: center;
+}
+#content{width:30%;
+    font-family: 'Irish Grover', cursive;
+    color:red;
+    height: 5vh;
+    text-align: center;
+    font-size: 5rem;
+
+}
+@media screen and (max-width:1285px){
+    .header{ font-size: 5.5rem;}
+    
+}
+
+@media screen and (max-width:1120px){
+    .header{ font-size: 4.5rem;}
+    
+}
+@media screen and (max-width:1019px){
+    .header{ font-size: 4rem;}
+    
+}
+@media screen and (max-width:819px){
+    .header{ font-size: 3rem;}
+    
+}
+@media screen and (max-width:610px){
+    .header{ font-size: 2rem;}
+    
+}
+@media screen and (max-width:610px){
+    .header{ font-size: 1.7rem;}
+    button{
+        width: 20%;
+    }
+    #content{
+        font-size:2.5rem ;
+        }
+    
+}
+  
+  
+  
