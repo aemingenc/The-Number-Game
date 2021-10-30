@@ -4,10 +4,11 @@ let content =document.getElementById("content");
 rNum=Math.floor(Math.random() * 100);
 button.addEventListener("click",() => {
     let guess=document.getElementById("search_bar").value;
-    
-    
+
         console.log(rNum);
     content.innerHTML =""
+    
+    
         if(guess == rNum){
             content.innerHTML += `<p>WİNNER</p>`;
             rNum=Math.floor(Math.random() * 100);
@@ -21,6 +22,7 @@ button.addEventListener("click",() => {
         else{
             content.innerHTML += "<p>WRONG KEYS.TRY AGAIN</p>";
     }
+
 
    
 })
