@@ -28,6 +28,9 @@ background-size: cover;
     width: 50%;
     height: 20vh;;
 }
+.header #explain{
+    font-size: 1rem;
+}
 #search_bar {
     padding-left: 25vw;
     height: 5vh;
